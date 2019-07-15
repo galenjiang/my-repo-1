@@ -1,0 +1,15 @@
+{
+  "name": "@galenjiang/my-repo-1",
+  "version": "1.0.1",
+  "description": "测试仓库，用来测试依赖关系和mono-repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@galenjiang/my-repo-2": "^1.0.1",
+    "@galenjiang/my-repo-4": "1.0.0"
+  }
+}
